@@ -85,3 +85,17 @@ p {
     right: 0;
     z-index: 10;
   }
+
+  /* 見出し */
+  h2 {
+    margin: 40px 0 0 0;
+  }
+
+  h2::after {
+    content: url("images/line.png");
+    margin-left: 10px;
+  }
+
+  h3 {
+    font-size: 27px;
+  }
